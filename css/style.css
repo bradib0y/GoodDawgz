@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito'); 
+@font-face { 
+     font-family: south; 
+     src: url('../fonts/SouthernAire.ttf') format('truetype'); 
+     
+} 
+
+html {
+  font-size: 20px;
+}
+
+body{
+    background-color: #455258;
+    color: #F1F9FF;
+}
+
+.container{max-width: 80%;}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 1rem;
+}
+
+.logo{
+    max-width: 10.3rem;
+}
+
+.nav{
+    max-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.navChild{
+    max-height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+h1{
+    font-size: 6rem;
+    font-family: south;
+    font-weight: 10;
+    margin-bottom: 0rem;
+}
+
+h2{
+    margin-top: 0rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.55rem;
+}
+
+.viewer{
+    display: flex;
+    justify-content: center;    
+    height: 30rem;
+    flex-wrap: wrap;
+}
+
+.dawgdiv{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.dawg{
+    max-height: 28rem;
+}
+
+.next{
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    flex-wrap: wrap;
+}
+
